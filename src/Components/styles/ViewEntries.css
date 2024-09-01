@@ -1,0 +1,141 @@
+
+.view-entries-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .no-entries-message {
+    font-size: 1.2rem;
+    color: #888;
+    text-align: center;
+  }
+  
+  
+  .entries-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .entry-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+
+  .entry-details {
+    flex: 1;
+  }
+  
+  .entry-title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #444;
+  }
+  
+  .entry-info {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .entry-description {
+    font-size: 1rem;
+    margin: 10px 0 0;
+    color: #555;
+  }
+  
+
+  .entry-actions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .edit-entry-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  
+  .edit-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+ 
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #444;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .update-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .update-btn:hover {
+    opacity: 0.8;
+  }
+  
